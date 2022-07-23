@@ -7,7 +7,7 @@ from skimage.io import imread
 # download the image
 img_url = 'https://www.awanavi.jp/uploaded/life/20231_25816_img.jpg'
 
-im = imread(img_urlb)
+im = imread(img_url)
 
 st.image(im, caption='image from wikimedia commons',
          use_column_width=True)
