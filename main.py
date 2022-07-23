@@ -5,7 +5,7 @@ from skimage.io import imread
 
 
 # download the image
-img_url = 'https://en.wikipedia.org/wiki/Penguin#/media/File:Penguin_in_Antarctica_jumping_out_of_the_water.jpg'
+img_url = 'https://en.wikipedia.org/wiki/Penguin#/media/File:Emperor_Penguin_Manchot_empereur.jpg'
 
 im = imread(img_url)
 
